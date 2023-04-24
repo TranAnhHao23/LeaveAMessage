@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://crm.aumerp.com/assets/css/font-awesome/css/font-awesome.min.css">
+    <title>Opt-in Form</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+<div id="getfly-optin-form"
+     data-options="{&quot;customFields&quot;:[],&quot;fields&quot;:[{&quot;type&quot;:&quot;phone&quot;,&quot;key&quot;:&quot;account_phone&quot;,&quot;label&quot;:&quot;\u0110i\u1ec7n tho\u1ea1i&quot;,&quot;require&quot;:true,&quot;placeholder&quot;:&quot;S\u1ed1 \u0111i\u1ec7n tho\u1ea1i&quot;},{&quot;type&quot;:&quot;textarea&quot;,&quot;key&quot;:&quot;account_description&quot;,&quot;label&quot;:&quot;M\u00f4 t\u1ea3&quot;,&quot;require&quot;:false,&quot;placeholder&quot;:&quot;Th\u00f4ng tin c\u1ea7n h\u1ed7 tr\u1ee3&quot;}],&quot;action&quot;:{&quot;url_success&quot;:&quot;&quot;,&quot;message_success&quot;:&quot;Ch\u00fang t\u00f4i \u0111\u00e3 nh\u1eadn \u0111\u01b0\u1ee3c th\u00f4ng tin c\u1ee7a b\u1ea1n th\u1ea7y c\u00f4 ph\u00f2ng tuy\u1ec3n sinh s\u1ebd li\u00ean h\u1ec7 v\u1edbi b\u1ea1n trong th\u1eddi gian s\u1edbm nh\u1ea5t!&quot;},&quot;hide&quot;:true,&quot;text&quot;:&quot;G\u1eedi&quot;,&quot;type_css&quot;:&quot;left&quot;,&quot;params&quot;:{&quot;u&quot;:&quot;124&quot;,&quot;r&quot;:&quot;&quot;,&quot;key&quot;:&quot;4wsinUecPX&quot;,&quot;os&quot;:&quot;2912&quot;,&quot;source&quot;:&quot;https:\/\/crm.aumerp.com&quot;,&quot;at&quot;:&quot;195&quot;},&quot;upload_file&quot;:false,&quot;user_id&quot;:&quot;124&quot;,&quot;key&quot;:&quot;QtK3PNW5XrDjG6NqWQtzglOufUjIUgeEHUtEVDMXaTWUoQPbSQ&quot;,&quot;custom_vals&quot;:&quot;.getfly-form{max-width:450px!important;margin:0 auto;padding:25px!important;font-size:12px;line-height:30px!important;color:#777;border:none;font-family:sans-serif;background:transparent;}\n.getfly-input{width:95%!important;background:#FFF;padding:10px;outline:0;border-radius:5px;}\n.getfly-select{width:100%!important;border:1px solid #CCC;background:#FFF;padding:10px 0px 10px 10px;outline:0;}\n.getfly-textarea{width:97.5%!important;border:1px solid #CCC;background:#FFF;padding:10px 5px;outline:0;height:50px;font-family:Arial;}\n.getfly-button{cursor:pointer;border:none;background:#f58632;color:#FFF;padding:10px 20px;font-size:18px;outline:0;font-family:sans-serif;border-radius:30px;}\n.getfly-span{color:#f58632;font-size:20px;font-weight:bold;float:none!important;}\n.getfly-label{display:none;}\n.getfly-mt10{margin-top:10px;}\n.getfly-label-c{color:#777 !important;}\n.getfly-span-c{color:#f58632 !important;}\n.getfly-button-bg{background:#f2420d;}\n.getfly-form input, select, textarea, .multi-select-button{border:1px solid #ccc !important;border-radius:5px;outline:none;}\n.getfly-btn{text-align:center;margin-top:3px;}\n.multi-select-container{}\n.getfly-row{margin-bottom: 0px;}\n@media(max-width: 480px){.getfly-input{width: 93% !important;}.getfly-textarea{width: 96%!important;}}\n.getfly-margin{margin: 5px;}&quot;}">
+    <div id="getfly-form" class="getfly-form">
+        <div class="getfly-row">
+            <label class="getfly-label getfly-label-c">Điện thoại<span
+                    class="getfly-span getfly-span-c">*</span></label><input type="text" name="account_phone"
+                                                                             id="account_phone"
+                                                                             class="getfly-input phone getfly-margin"
+                                                                             placeholder="Số điện thoại *"></div>
+        <div class="getfly-row">
+            <label class="getfly-label getfly-label-c">Mô tả</label><textarea name="account_description"
+                                                                              id="description"
+                                                                              class="getfly-textarea getfly-margin"
+                                                                              placeholder="Thông tin cần hỗ trợ"></textarea>
+        </div>
+        <div class=" getfly-btn">
+            <button class="getfly-button getfly-button-bg getfly-margin" onclick="sendEmail()">Gửi</button>
+        </div>
+    </div>
+</div>
+<iframe id="nr-ext-rsicon"
+        style="position: absolute; display: none; width: 50px; height: 50px; z-index: 2147483647; border-style: none; background: transparent;"></iframe>
+</body>
+</html>
